@@ -1,0 +1,15 @@
+{
+  "rules": {
+    ".read": true,
+    ".write": true,
+    "news": {
+      ".indexOn": ["featured", "date"]
+    }
+  }
+}
+/*{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+}*/

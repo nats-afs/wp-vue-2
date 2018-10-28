@@ -1,0 +1,23 @@
+<template>
+<div class="">
+    <h4>Historia</h4>
+    <div class="divider"></div>
+    <h5>Evolución Histórica - Investigaciones del Dr. Alberto Mendoza</h5>
+    <p>OCUPACIÓN TEMPRANA: Las evidencias históricas muestran una serie de cambios en el nombre de Santa Eulalia. El nombre originario Curacasgo de Acopaya pasó a ser Santa Layao o Santolalla.</p>
+    <p>PERIODO PRE HISPÁNICO: Antes de la invasión española, en la parte baja del valle formado por el río Chacalla -llamado en la colonia río Santa Olalla-(hoy Santa Eulalia), existió un Curacazgo llamado Acopaya, cuyos habitantes se dedicaban al cultivo de la coca, el maíz y el ajì. Cada año el curaca de Acopaya iba hacia el Señor de Guadorcherì, hoy Huarochirí, a entregar los primeros frutos de la cosecha de dichas plantas.</p>
+    <h5>Periodo Colonial</h5>
+    <p>El quinto virrey del Perú Don Francisco de Toledo ordenó la reducción de los ayllus para formar los pueblos. En Huarochirí quien cumplió la misión fue el corregidor don Diego Dávila Briceño, español que llegó al Perú en 1541 poniéndose al servicio de La Gasca. En el año 1573 fue nombrado corregidor de Huarochirí, cargo que ocupó por más de doce años. Durante los tres primeros años como corregidor redujo más de doscientos ayllus y curacazgos Huarochiranos a sólo treinta y nueve pueblos incaicos. El corregimiento de Huarochirí fue dividido en tres repartimientos: Chacallal, Mama y Huarochirí. Dávila Briceño fundó los siguientes pueblos de indios o reducciones: Santiago de Carampoma, San Francisco de Quilla, San Jerónimo de Punan y Santa Olalla de Acopaya.</p>
+    <h5>Periodo Republicano</h5>
+    <p>En 1821, don José de San Martín creó el departamento de Lima, integrado por los partidos de Lima, Yauyos, Cañete, Ica y Huarochirí. En el documento de creación figura: Santa Olalla de Acopaya. Muchos pueblos decretaron su independencia días después de la independencia nacional, en Santa Eulalia la proclama de independencia se diò el 4 de Agosto de 1821 en presencia de las autoridades y vecinos notables reunidos en la plaza de armas de la misma. El 21 de junio de 1825 el Libertador Don Simón Bolívar confirmó la creación de la provincia de Huarochirí con diez distritos. Figura allí como uno de ellos Santa Eulalia, evidentemente fue una equivocación del escribano. Santa Eulalia estuvo dividido en dos sectores a fines del siglo XIX, la Hacienda de Parca que comprendía desde el antiguo puente Huaro hasta la quebrada de Santa Rosa de Chune; y los terrenos de la Curia _ tierras de la iglesia_ que se encontraban en la margen de río Santa Eulalia. Cabe señalar que los terrenos del Curato de Santa Eulalia fueron vendidos a menor cuantía, pero en grandes extensiones; estas ventas aparentemente se habrían llevado a cabo a inicios del siglo XX. En la actualidad el distrito de Santa Eulalia con una extensión de 111 km cuadrados ha delimitado su jurisdicción mediante la Ley No. 18681 del 15 de diciembre de 1970.</p>
+    <h5>Juramentación de la independencia del Pueblo de Santa Olaya (Santa Eulalia de Acopaya) 30 de Setiembre de 1821</h5>
+    <p> Proclamada la independencia por San Martín, en Lima en 1821, los pueblos del interior del país se adhirieron a la causa libertaria uno de ellos fue el pueblo de Santa Eulalia, encabezada por sus alcaldes, párrocos y demás principales. A continuación transcribimos el documento. "En treinta del mes de setiembre del año mil ochocientos veinte y uno y primero de la independencia, en el pueblo de Santa Olaya (antiguo nombre), juntos y congregados todos los habitantes después en la misa cantada solemne que se celebró, y hecha la debida exhortación para la inteligencia del juramento de la independencia del Perú, leído el oficio Excmo. Señor Don José de San Martín, Capitán General, etc., Que en copia se acompaña el oficio de primero de agosto de ochocientos veinte y uno, y primero de la independencia el señor Dean Dr. Dn. Francisco Xavier de la Echague, comisionado para hacerle presente a todos los párrocos de los departamentos libres en que incluye la fórmula con que debe prestarse juramento concebido en estos términos: ¿Juráis a Dios y a la Patria sostener y defender con vuestra opinión, personas y propiedades de la independencia del Perú del Gobierno Español y de cualquier otra dominación extranjera? Si así lo hicieres, Dios os ayude y sino él y la patria os lo demande. Todos conformes dijeron que juraban conmigo los infrascritos en nombre de todo el pueblo y para su debida constancia así los certifico:</p>
+</div>         
+</template>
+<script>
+export default {
+  
+}
+</script>
+<style lang="scss">
+
+</style>

@@ -1,0 +1,396 @@
+//PALETA DE COLORES
+$primary-fill-color: #008637;
+$primary-text-color: #fff;
+
+p.slogan {
+  font-family: "Calligraffitti", cursive;
+  font-size: 20pt;
+  font-weight: bold;
+}
+
+header {
+  background-image: url("../img/plazaStaEulalia.png"); //  background-image: url('../img/palacio_municipal.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  .header-wrapper {
+    color: $primary-text-color;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+    .muni-logo {
+      display: grid;
+      grid-gap: 2em;
+      grid-template-columns: 150px 760px;
+      margin: 0 auto;
+      padding: 2em;
+      h4 {
+        font-family: "Lora", Arial, sans-serif;
+        font-size: 30pt;
+        font-weight: 600;
+      }
+    }
+  }
+  .header-bottom {
+    background-color: $primary-fill-color;
+    nav {
+      background-color: $primary-fill-color;
+      .dropdown-content {
+        top: 64px !important;
+      }
+      i.fa {
+        font-size: 16pt;
+      }
+    }
+  }
+}
+
+.divider {
+  height: 1px;
+  overflow: hidden; //  background-color: #3f46c3;
+}
+
+blockquote {
+  border-left: 5px solid $primary-fill-color;
+}
+
+.dropdown-content li {
+  background-color: $primary-fill-color;
+  & > a,
+  & > span {
+    font-size: 16px;
+    color: $primary-text-color;
+    display: block;
+    line-height: 22px;
+    padding: 14px 16px; //  background-color: $primary-fill-color;
+  }
+
+  &:hover,
+  &.active,
+  &.selected {
+    background-color: $primary-fill-color;
+  }
+}
+
+#nav-header {
+  border-bottom: 1px solid #aeb7c0cc;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 1px 5px 0 rgba(128, 28, 16, 0.1), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(128, 28, 16, 0.1),
+    0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+
+nav.navbar-main {
+  background-color: transparent;
+  box-shadow: none;
+  a {
+    color: $primary-fill-color;
+    font-weight: 500;
+    &:hover {
+      background-color: transparent;
+      color: #627cb1cc;
+    }
+  }
+  .dropdown-content li {
+    background-color: #fff;
+    & > a,
+    & > span {
+      font-size: 15px;
+      font-weight: 300;
+      color: $primary-fill-color;
+      display: block;
+      line-height: 22px;
+      padding: 14px 16px; //  background-color: $primary-fill-color;
+    }
+    &:hover,
+    &.active,
+    &.selected {
+      background-color: #fff;
+    }
+  }
+}
+
+.VueCarousel-navigation {
+  button {
+    background-color: $primary-text-color !important;
+		border-radius: 50%;
+		z-index: 20;
+		box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+			0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+    &:hover {
+      box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14),
+        0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+    }
+    &.VueCarousel-navigation-next {
+      right: 0;
+      transform: translateY(-50%) translateX(40%);
+    }
+    &.VueCarousel-navigation-prev {
+      left: 0;
+      transform: translateY(-50%) translateX(-40%);
+    }
+  }
+  i {
+    color: $primary-fill-color;
+    margin: 0.25em;
+  }
+}
+
+.vue-lb-container {
+  z-index: 3000 !important;
+}
+
+.news-wrapper {
+  margin: 3em auto;
+  .news-title {
+    padding: 3em 2em;
+  }
+  .news-content {
+    position: relative;
+    & > .row {
+      margin-bottom: 0;
+    }
+  }
+  h2 {
+    font-family: "Lora", Arial, sans-serif;
+    font-size: 30pt;
+  }
+  a {
+    line-height: normal;
+    i {
+      vertical-align: middle;
+    }
+    &:hover {
+      color: $primary-fill-color;
+    }
+  }
+}
+
+#notes {
+  position: relative;
+  .notes-wrapper {
+    background-color: $primary-text-color;
+    color: $primary-fill-color;
+    position: absolute;
+    padding: 1.5em;
+    top: 45%;
+    width: 70%; // margin-top: -20em;
+    a {
+      color: $primary-fill-color;
+    }
+  }
+  p.flow-text {
+    font-size: 1.1rem;
+  }
+}
+
+#events,
+#eventos {
+  .events-wrapper {
+    margin: 8em auto;
+    h1 {
+      color: rgba(145, 139, 139, 0.39);
+      font-size: 100pt;
+      font-family: "Lora", Arial, sans-serif;
+      margin-top: 50px;
+      margin-bottom: -50px;
+    }
+    a {
+      margin: 0 auto;
+      i {
+        vertical-align: middle;
+      }
+      &:hover {
+        color: $primary-fill-color;
+      }
+    }
+  }
+  .events-content {
+    position: relative;
+    .card-image {
+      height: 100%;
+      max-height: none;
+      img {
+        height: inherit;
+        width: 100%;
+      }
+    } // .carousel{
+    //   height: 350px !important;
+    // }
+  }
+}
+
+.blue {
+  background-color: $primary-fill-color !important;
+  color: $primary-text-color;
+  a {
+    color: $primary-text-color;
+  }
+}
+
+.vue-lb-arrow {
+  background-color: transparent !important;
+}
+
+#media {
+  margin: 0 auto 5em auto;
+  h4 {
+    padding: 1em 0;
+  }
+  .documentos {
+    .docs-wrapper {
+      padding: 0 1.5em;
+    }
+    i {
+      font-size: 16pt;
+      color: rgba(63, 78, 142, 0.39);
+    }
+    a {
+      font-size: 12pt;
+      padding: 0.25em 0.5em;
+    }
+  }
+}
+
+.fixed-links {
+  background-color: #fff;
+  border: 1px solid rgba(145, 139, 139, 0.39);
+  border-radius: 5px 0 0 5px;
+  padding: 0.25em;
+  position: fixed;
+  top: 300px;
+  right: -1px;
+  width: 65px;
+  z-index: 50000;
+  img {
+    padding: 0.25em;
+  }
+}
+
+footer.page-footer {
+  background-color: $primary-fill-color;
+  a {
+    color: $primary-text-color;
+  }
+  i.fa {
+    padding: 0.5em;
+  }
+  .footer-copyright {
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  header {
+    background-position: center center;
+    .header-wrapper {
+      height: 250px;
+      .muni-logo {
+        grid-gap: 1em;
+        grid-template-columns: 1fr;
+        grid-template-rows: 70px 80px;
+        margin: 0 auto;
+        padding: 4em 3em;
+        img {
+          margin: 0 auto;
+          width: 35%;
+        }
+        h4 {
+          font-family: "Lora", Arial, sans-serif;
+          font-size: 15pt;
+          text-align: center;
+        }
+        p {
+          display: none;
+        }
+      }
+    }
+  }
+  .parallax-container {
+    height: 100%;
+  }
+  #notes {
+    .notes-wrapper {
+      top: 15%;
+      width: 100%;
+      position: relative; // margin-top: -25em;
+    }
+  }
+  #nav-header {
+    background-color: $primary-fill-color;
+    a.button-collapse {
+      color: $primary-text-color;
+      & > i {
+        display: inline-block;
+        padding: 0 0.25em;
+      }
+    }
+  }
+
+  #news {
+    .news-wrapper {
+      margin: 0 auto;
+      .news-title {
+        padding: 1em 2em;
+      }
+      .valign-wrapper {
+        display: block;
+      }
+      h2 {
+        font-size: 24pt;
+      }
+      .news-content {
+        .carousel {
+          height: 345px !important;
+        }
+      }
+    }
+  }
+  #events .events-wrapper {
+    margin: 6em auto;
+    h1 {
+      font-size: 48pt;
+      margin-bottom: 30px;
+    }
+  }
+
+  #media {
+    margin: 0 auto 5em auto;
+    h4 {
+      padding: 1em 0;
+      text-align: center;
+      border-bottom: 1px solid rgba(145, 139, 139, 0.39);
+    }
+    h5 {
+      font-size: 14pt;
+    }
+    p {
+      font-size: 12pt;
+    }
+    span {
+      font-size: 10pt;
+    }
+    h5,
+    p,
+    span {
+      margin: 0 auto 5px;
+    }
+    .lugares > .row,
+    .galeria > .row {
+      display: flex;
+      align-items: center;
+    }
+    .documentos {
+      & > .row {
+        padding: 0.5em 2em;
+      }
+      i {
+        font-size: 16pt;
+        color: rgba(63, 78, 142, 0.39);
+      }
+      a {
+        font-size: 12pt;
+        padding: 0.25em 0.5em;
+      }
+    }
+  }
+}

@@ -1,0 +1,287 @@
+p.slogan {
+  font-family: "Calligraffitti", cursive;
+  font-size: 20pt;
+  font-weight: bold; }
+
+header {
+  background-image: url("../img/plazaStaEulalia.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+  header .header-wrapper {
+    color: #fff;
+    height: 350px;
+    display: flex;
+    align-items: flex-end; }
+    header .header-wrapper .muni-logo {
+      display: grid;
+      grid-gap: 2em;
+      grid-template-columns: 150px 760px;
+      margin: 0 auto;
+      padding: 2em; }
+      header .header-wrapper .muni-logo h4 {
+        font-family: "Lora", Arial, sans-serif;
+        font-size: 30pt;
+        font-weight: 600; }
+  header .header-bottom {
+    background-color: #008637; }
+    header .header-bottom nav {
+      background-color: #008637; }
+      header .header-bottom nav .dropdown-content {
+        top: 64px !important; }
+      header .header-bottom nav i.fa {
+        font-size: 16pt; }
+
+.divider {
+  height: 1px;
+  overflow: hidden; }
+
+blockquote {
+  border-left: 5px solid #008637; }
+
+.dropdown-content li {
+  background-color: #008637; }
+  .dropdown-content li > a, .dropdown-content li > span {
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    line-height: 22px;
+    padding: 14px 16px; }
+  .dropdown-content li:hover, .dropdown-content li.active, .dropdown-content li.selected {
+    background-color: #008637; }
+
+#nav-header {
+  border-bottom: 1px solid #aeb7c0cc;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(128, 28, 16, 0.1), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(128, 28, 16, 0.1), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
+
+nav.navbar-main {
+  background-color: transparent;
+  box-shadow: none; }
+  nav.navbar-main a {
+    color: #008637;
+    font-weight: 500; }
+    nav.navbar-main a:hover {
+      background-color: transparent;
+      color: #627cb1cc; }
+  nav.navbar-main .dropdown-content li {
+    background-color: #fff; }
+    nav.navbar-main .dropdown-content li > a, nav.navbar-main .dropdown-content li > span {
+      font-size: 15px;
+      font-weight: 300;
+      color: #008637;
+      display: block;
+      line-height: 22px;
+      padding: 14px 16px; }
+    nav.navbar-main .dropdown-content li:hover, nav.navbar-main .dropdown-content li.active, nav.navbar-main .dropdown-content li.selected {
+      background-color: #fff; }
+
+.VueCarousel-navigation button {
+  background-color: #fff !important;
+  border-radius: 50%;
+  z-index: 20;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2); }
+  .VueCarousel-navigation button:hover {
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2); }
+  .VueCarousel-navigation button.VueCarousel-navigation-next {
+    right: 0;
+    transform: translateY(-50%) translateX(40%); }
+  .VueCarousel-navigation button.VueCarousel-navigation-prev {
+    left: 0;
+    transform: translateY(-50%) translateX(-40%); }
+.VueCarousel-navigation i {
+  color: #008637;
+  margin: 0.25em; }
+
+.vue-lb-container {
+  z-index: 3000 !important; }
+
+.news-wrapper {
+  margin: 3em auto; }
+  .news-wrapper .news-title {
+    padding: 3em 2em; }
+  .news-wrapper .news-content {
+    position: relative; }
+    .news-wrapper .news-content > .row {
+      margin-bottom: 0; }
+  .news-wrapper h2 {
+    font-family: "Lora", Arial, sans-serif;
+    font-size: 30pt; }
+  .news-wrapper a {
+    line-height: normal; }
+    .news-wrapper a i {
+      vertical-align: middle; }
+    .news-wrapper a:hover {
+      color: #008637; }
+
+#notes {
+  position: relative; }
+  #notes .notes-wrapper {
+    background-color: #fff;
+    color: #008637;
+    position: absolute;
+    padding: 1.5em;
+    top: 45%;
+    width: 70%; }
+    #notes .notes-wrapper a {
+      color: #008637; }
+  #notes p.flow-text {
+    font-size: 1.1rem; }
+
+#events .events-wrapper,
+#eventos .events-wrapper {
+  margin: 8em auto; }
+  #events .events-wrapper h1,
+  #eventos .events-wrapper h1 {
+    color: rgba(145, 139, 139, 0.39);
+    font-size: 100pt;
+    font-family: "Lora", Arial, sans-serif;
+    margin-top: 50px;
+    margin-bottom: -50px; }
+  #events .events-wrapper a,
+  #eventos .events-wrapper a {
+    margin: 0 auto; }
+    #events .events-wrapper a i,
+    #eventos .events-wrapper a i {
+      vertical-align: middle; }
+    #events .events-wrapper a:hover,
+    #eventos .events-wrapper a:hover {
+      color: #008637; }
+#events .events-content,
+#eventos .events-content {
+  position: relative; }
+  #events .events-content .card-image,
+  #eventos .events-content .card-image {
+    height: 100%;
+    max-height: none; }
+    #events .events-content .card-image img,
+    #eventos .events-content .card-image img {
+      height: inherit;
+      width: 100%; }
+
+.blue {
+  background-color: #008637 !important;
+  color: #fff; }
+  .blue a {
+    color: #fff; }
+
+.vue-lb-arrow {
+  background-color: transparent !important; }
+
+#media {
+  margin: 0 auto 5em auto; }
+  #media h4 {
+    padding: 1em 0; }
+  #media .documentos .docs-wrapper {
+    padding: 0 1.5em; }
+  #media .documentos i {
+    font-size: 16pt;
+    color: rgba(63, 78, 142, 0.39); }
+  #media .documentos a {
+    font-size: 12pt;
+    padding: 0.25em 0.5em; }
+
+.fixed-links {
+  background-color: #fff;
+  border: 1px solid rgba(145, 139, 139, 0.39);
+  border-radius: 5px 0 0 5px;
+  padding: 0.25em;
+  position: fixed;
+  top: 300px;
+  right: -1px;
+  width: 65px;
+  z-index: 50000; }
+  .fixed-links img {
+    padding: 0.25em; }
+
+footer.page-footer {
+  background-color: #008637; }
+  footer.page-footer a {
+    color: #fff; }
+  footer.page-footer i.fa {
+    padding: 0.5em; }
+
+@media only screen and (max-width: 992px) {
+  header {
+    background-position: center center; }
+    header .header-wrapper {
+      height: 250px; }
+      header .header-wrapper .muni-logo {
+        grid-gap: 1em;
+        grid-template-columns: 1fr;
+        grid-template-rows: 70px 80px;
+        margin: 0 auto;
+        padding: 4em 3em; }
+        header .header-wrapper .muni-logo img {
+          margin: 0 auto;
+          width: 35%; }
+        header .header-wrapper .muni-logo h4 {
+          font-family: "Lora", Arial, sans-serif;
+          font-size: 15pt;
+          text-align: center; }
+        header .header-wrapper .muni-logo p {
+          display: none; }
+
+  .parallax-container {
+    height: 100%; }
+
+  #notes .notes-wrapper {
+    top: 15%;
+    width: 100%;
+    position: relative; }
+
+  #nav-header {
+    background-color: #008637; }
+    #nav-header a.button-collapse {
+      color: #fff; }
+      #nav-header a.button-collapse > i {
+        display: inline-block;
+        padding: 0 0.25em; }
+
+  #news .news-wrapper {
+    margin: 0 auto; }
+    #news .news-wrapper .news-title {
+      padding: 1em 2em; }
+    #news .news-wrapper .valign-wrapper {
+      display: block; }
+    #news .news-wrapper h2 {
+      font-size: 24pt; }
+    #news .news-wrapper .news-content .carousel {
+      height: 345px !important; }
+
+  #events .events-wrapper {
+    margin: 6em auto; }
+    #events .events-wrapper h1 {
+      font-size: 48pt;
+      margin-bottom: 30px; }
+
+  #media {
+    margin: 0 auto 5em auto; }
+    #media h4 {
+      padding: 1em 0;
+      text-align: center;
+      border-bottom: 1px solid rgba(145, 139, 139, 0.39); }
+    #media h5 {
+      font-size: 14pt; }
+    #media p {
+      font-size: 12pt; }
+    #media span {
+      font-size: 10pt; }
+    #media h5,
+    #media p,
+    #media span {
+      margin: 0 auto 5px; }
+    #media .lugares > .row,
+    #media .galeria > .row {
+      display: flex;
+      align-items: center; }
+    #media .documentos > .row {
+      padding: 0.5em 2em; }
+    #media .documentos i {
+      font-size: 16pt;
+      color: rgba(63, 78, 142, 0.39); }
+    #media .documentos a {
+      font-size: 12pt;
+      padding: 0.25em 0.5em; } }
+
+/*# sourceMappingURL=style.css.map */
